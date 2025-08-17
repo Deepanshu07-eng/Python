@@ -11,4 +11,7 @@ print(l1)
 
 l1.reverse()
 l1.insert(4,100)
+l1.pop(2)
+l1.remove(45)
+print(l1.pop(3))
 print(l1)

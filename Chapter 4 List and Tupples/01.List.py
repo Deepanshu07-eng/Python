@@ -5,4 +5,4 @@ print(ForExample[4])
 ForExample[0] ="Deepanshu"
 
 print(ForExample[0])
-print(ForExample[1:4])
+print(ForExample)
