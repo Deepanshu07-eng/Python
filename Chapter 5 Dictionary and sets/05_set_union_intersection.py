@@ -5,3 +5,4 @@ print(s1.union(s2))
 #union means it add both sets in single output and didnt repeat same value as well.
 
 print(s1.intersection(s2))
+#intersection give the same value which is present in set 1 or set 2 both. 
