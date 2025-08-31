@@ -1,0 +1,21 @@
+s =set()
+
+Number = input("Enter Number: ")
+s.add(int(Number))
+Number = input("Enter Number: ")
+s.add(int(Number))
+Number = input("Enter Number: ")
+s.add(int(Number))
+Number = input("Enter Number: ")
+s.add(int(Number))
+Number = input("Enter Number: ")
+s.add(int(Number))
+Number = input("Enter Number: ")
+s.add(int(Number))
+Number = input("Enter Number: ")
+s.add(int(Number))
+Number = input("Enter Number: ")
+s.add(int(Number))
+
+
+print(s)
