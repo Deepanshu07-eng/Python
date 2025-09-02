@@ -1,3 +1,5 @@
+#Write a program to input eight numbers from the user and display all the unique number (once).
+
 s =set()
 
 Number = input("Enter Number: ")
