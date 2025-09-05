@@ -10,7 +10,7 @@ a = int(input("Enter your Age: "))
 
 if(a>18):
     print("You are Eligible for voting")
-    print("Good for you and for Congress party haha lol")
+    print("Good for you and for Congress party haha lol")  
 else:
     print("You are not Eligible for voting")
 
