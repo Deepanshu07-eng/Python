@@ -31,4 +31,4 @@ def avg():
 avg()
 avg()
 avg()
-avg()
+avg() #this run 4 times
