@@ -9,4 +9,5 @@ def f_to_c(f):
 
 
 f = int(input("Enter temperature in F: "))
-print(f_to_c(f))
+sol = f_to_c(f)
+print(f"{round(sol, 2)}°C")
