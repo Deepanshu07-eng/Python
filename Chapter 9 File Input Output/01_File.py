@@ -14,6 +14,7 @@ TYPES OF FILES.
 
 1. Text Files. (.txt, .c etc.)
 2. Binary Files. (.jpg, .dat etc.)
+
 '''
 
 # Text file. ( Open/ Read/ Print/ Close)
