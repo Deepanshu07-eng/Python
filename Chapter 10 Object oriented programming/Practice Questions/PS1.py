@@ -1,3 +1,7 @@
+'''
+Q1 - Create a class "Programmer" for storing information of few programmers working at microsoft.
+
+'''
 class programmer :
     company = "Microsoft"
 
