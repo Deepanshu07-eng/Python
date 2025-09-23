@@ -19,7 +19,7 @@ class calculator :
 
     @staticmethod
     def hello():
-        print("Hello there! ")
+        print("Hello there")
 a = calculator(10)
 a.hello()
 a.square()
