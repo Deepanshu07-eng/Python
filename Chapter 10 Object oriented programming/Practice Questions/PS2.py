@@ -1,3 +1,8 @@
+'''
+Q2: Write a class "calculator" capable of finding square, cube and squareroot of a number.
+''' 
+
+
 class calculator :
 
     def __init__(self, n,):
