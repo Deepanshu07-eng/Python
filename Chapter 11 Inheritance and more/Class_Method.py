@@ -1,6 +1,6 @@
 class employee:
-    a =13
-    @classmethod  #CLASS METHOD
+    a =2000
+    @classmethod
     def show(cls):
         print(f"The class attribute of a is {cls.a}")
 
