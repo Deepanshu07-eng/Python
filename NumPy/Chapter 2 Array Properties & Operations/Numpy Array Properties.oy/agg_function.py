@@ -12,4 +12,4 @@ print(np.min(arr))     # Minimum element
 
 print(np.max(arr))     # Maximum element
 
-print(np.var(arr))   # Variance of elements
+print(np.var(arr))   # Variance of elementsq2
