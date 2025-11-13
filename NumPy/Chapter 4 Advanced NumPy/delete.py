@@ -1,0 +1,13 @@
+"""
+np.delete() allows you to remove elements from a NumPy array along a specified axis.
+
+np.delete(array, index, axis=None)
+"""
+
+import numpy as np
+
+arr= np.array([10,20,30,40,50,60])
+print(arr)
+
+new_arr= np.delete(arr, 2, axis =0)
+print(new_arr)
