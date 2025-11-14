@@ -1,3 +1,19 @@
+"""
+
 First   -> Filled 
 middle  -> Filled
 last    -> Ignored
+
+if you dont know how to handle missing values then the machiene learning chance to get failed will increase drastically.
+
+
+solution-> 
+Built in functions in numpy:
+
+1. np.isnan() -> detect missing values
+2. np.nan_to_num() -> fill missing values with zero
+3. np.isinf() -> fill missing values with mean/median/mode
+
+NaN -> Not a Number 
+
+"""
