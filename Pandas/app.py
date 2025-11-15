@@ -11,3 +11,7 @@ print(df)
 df = pd.read_excel("superstore.xls" )
 
 print(df)
+
+
+
+# gcsfs is a Python library that provides an interface to Google Cloud Storage (GCS) using the Pandas library.
