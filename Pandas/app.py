@@ -8,6 +8,6 @@ print(df)
 
 # read excel data set
 
-xl = pd.read_excel("superstore.xls", encoding = "latin1" )
+df = pd.read_excel("superstore.xls" )
 
-print(xl)
+print(df)
