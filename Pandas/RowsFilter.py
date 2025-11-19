@@ -15,3 +15,9 @@ df = pd.DataFrame(data)
 high_salary = df[df['Salary'] > 60000]
 print('Employees with salary greater than 60000')
 print(high_salary)
+
+# filtering rows salary > 50k  and age > 25
+
+filtered_data = df[(df['Age']> 25) & (df["Salary"] > 50000)]
+print('\nEmployees with age greater than 25 and salary greater than 50000')
+print(filtered_data)
