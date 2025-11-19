@@ -1,0 +1,16 @@
+Data ko kyu smjhna jruri h?
+
+1 - Dont know anput rows and columns?
+
+2 - what type of data ?
+
+3 - Missing data?
+
+info?
+methods
+
+1 - number of rows and columns
+2 - Column namr
+3 - DATAT TYPE - int64, float64, object
+4 - non null counts
+5 - memory usage of the data frame
