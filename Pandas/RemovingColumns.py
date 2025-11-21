@@ -17,3 +17,7 @@ print(df)
 
 df.drop(columns= ["Performance score"], inplace=True)
 print(df)
+
+#Removing Multile Columns
+df.drop(columns= ["City", "Age"], inplace=True)
+print(df)
