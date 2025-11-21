@@ -1,0 +1,2 @@
+NaN (Not a Number)
+None(for object data types)
