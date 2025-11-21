@@ -9,10 +9,16 @@ data = {
     "Salary": [50000, 60000, 55000, 52000, 58000, 62000, 59000, 61000, 63000, 54000, 65000, 57000],
     "Performance score": [85, 90, 88, 82, 87, 91, 89, 86, 92, 84, 93, 83]
 }
-
 df = pd.DataFrame(data)
-# Square brackets df["Column_name"] = some_Data
 print(df)
+# Square brackets df["Column_name"] = some_Data
 
 df["Bonus"] = df["Salary"] * 0.1
 print(df) 
+
+# #2 Using insert() method
+# df.insert(loc, "Column_name", some_Data)
+
+
+df.insert(0, "Employee_Id", range(101, 113))
+print(df)
