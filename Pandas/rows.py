@@ -9,5 +9,6 @@ print('Displaying first 10 rows of the dataframe')
 print(df.head(10))
 
 print('\nDisplaying last 10 rows of the dataframe')
-print(df.tail(10))
+print(df.tail(1))
+
 
