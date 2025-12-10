@@ -6,7 +6,7 @@ df = pd.read_csv("customers-1000.csv")  #use encoding = "latin1" if needed for s
 
 print(df)
 
-# read excel data set
+# read excel data sheet into a dataframe
 
 df = pd.read_excel("superstore.xls" )
 
