@@ -3,7 +3,7 @@ import pandas as pd
 
 
 data = {
-    "Name": ['Rahul', 'Sonia','Rahul', 'Yash', 'Drishti', 'Deepanshu', 'Ankita', 'Karan', 'Simran', 'Amit', 'Neha', 'Rohan', 'Pooja'],
+    "Name": ['Rahul', 'Sonia', 'Yash', 'Drishti', 'Deepanshu', 'Ankita', 'Karan', 'Simran', 'Amit', 'Neha', 'Rohan', 'Pooja'],
     "Age" : [23, 24, 22, 21, 25, 23, 24, 22, 26, 21, 27, 23],
     "City" : ['Pune', 'Mumbai', 'Bangalore', 'Delhi', 'Chennai', 'Kolkata', 'Hyderabad', 'Ahmedabad', 'Jaipur', 'Lucknow', 'Surat', 'Indore'],
     "Salary": [5000000, 60000, 55000, 52000, 58000, 62000, 59000, 61000, 63000, 54000, 65000, 57000],
