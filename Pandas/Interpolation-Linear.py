@@ -13,3 +13,11 @@ df['Value'] = df['Value'].interpolate(method="linear")
 print('After interpolation')
 print(df)
 
+
+'''
+When to use Interpolation:
+    1- Timer series data with missing values
+    2- Numeric data with missing values where trend is to be maintained
+    3- avoid droping rows/columns with missing values
+    
+'''
