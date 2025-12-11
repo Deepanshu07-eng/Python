@@ -1,1 +1,14 @@
 Interpolation -> Missing Values me Estimated Values Fill Karna
+
+for ex :
+    10
+    20
+    NA -> Estimated value is 30
+    40
+    50
+
+linear:
+
+1- Preserve data integrity
+2- smooth trends
+3- Avoid Data loss
