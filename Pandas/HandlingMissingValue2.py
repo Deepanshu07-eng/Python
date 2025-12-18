@@ -20,7 +20,8 @@ print(df)
 
 
 
-# Fill missing values in 'Age' column with the mean of that column
+# Fill missing values in 'Age' column with the mean of that column 
+# to avoid biasing the data
 df['Age'].fillna(df['Age'].mean(), inplace=True)
 print(df)
 
