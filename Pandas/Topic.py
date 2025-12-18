@@ -20,4 +20,4 @@ data = {
 df = pd.DataFrame(data)
 print(df)
 print(f'shape: {df.shape}')
-print(f'Column names: {df.columns}')
+print(f'Column Names: {df.columns}')
