@@ -6,7 +6,7 @@ data={
 }
 
 df = pd.DataFrame(data)
-print('Before interpolation')
+print('Before interpolations')
 print(df)
 
 df['Value'] = df['Value'].interpolate(method="linear")
