@@ -4,8 +4,8 @@
 
 import pandas as pd
 
-#df.sort_values(by="", ascending=True, inplace=True)
-
+# Single Value -> df.sort_values(by="", ascending=True, inplace=True)
+# Multiple Values -> df.sort_values(by=["", ""], ascending=[True, False], inplace=True)
 data ={
     "Name": ['Rahul', 'Sonia', 'Yash', 'Drishti', 'Piyush', 'Deepanshu', 'Ankita', 'Karan', 'Simran', 'Amit', 'Neha', 'Rohan', 'Pooja'],
     "Age" : [23, 24, 22, 21, 25, 23, 24, 22, 26, 21, 27, 23, 23],
@@ -16,4 +16,9 @@ data ={
 
 df = pd.DataFrame(data)
 df.sort_values(by="Age", ascending=True, inplace=True)  #Sorting age by ascending order
+print(df)
+
+
+# Sorting data in Multiple Columns
+df.sort_values(by=["Age", "Salary"], ascending=False, inplace=True)  #Sorting age and salary by descending order
 print(df)
