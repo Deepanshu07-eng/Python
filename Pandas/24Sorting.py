@@ -19,7 +19,7 @@ df.sort_values(by="Age", ascending=True, inplace=True)  #Sorting age by ascendin
 print(df)
 
 
-# Sorting data in Multiple Columns
+# Sorting data in Multiple Colms
 df.sort_values(by=["Age", "Salary"], ascending=False, inplace=True)  #Sorting age and salary by descending order
 print('Sorting by Age and Salary in descending order')
 print(df)
